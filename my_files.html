@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>OnTabFile-my_file</title>
+
+  	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href='css/ie.css'>
+	<link rel="stylesheet" href='css/font-awesome.css'>
+	<link rel="stylesheet" href='css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href='css/media-queries.css'>
+
+	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+	<link rel="stylesheet" href="css/jquery.fileupload.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<!-- Timer -->
+	<link rel="stylesheet" href="css/style-timer.css">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/mobilenav.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+    
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+	<![endif]-->
+
+</head>
+<body>
+ <!-- =====================================================START HEADER=============================================== -->	
+<div class="page">
+	<div class="main-container">
+		<!--block mobile-->
+		<aside class="mobile-nav">
+				<ul class="list-mobile dropdown">
+					<li><a href="#">право</a></li>
+					<li><a href="#">контакты</a></li>
+					<li><a href="#">рекламодатель</a></li>
+					<li><a href="#" class="subcatalog" id="catalog-mobile">каталог</a>
+
+						<ul class="dropdown-catalog" id="dropdown-catalog">
+							<li><a href="#" class="audio subcatalog">Аудио</a>
+								<ul class="audio-list list"> 
+									<li><a href="#">Музыка</a></li>
+									<li><a href="#">Аудиокниги</a></li>
+									<li><a href="#">Аудиозаписи</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="video subcatalog">Видео</a>
+								<ul class="video-list list"> 
+									<li><a href="#">Фильмы</a></li>
+									<li><a href="#">Фильмы DVDR</a></li>
+									<li><a href="#">Музыкальное видео</a></li>
+									<li><a href="#">Видеоролики</a></li>
+									<li><a href="#">В передачи</a></li>
+									<li><a href="#">КПК</a></li>
+									<li><a href="#">HD - Movies</a></li>
+									<li><a href="#">HD - TV shows</a></li>
+									<li><a href="#">3D</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="program subcatalog">Программы</a>
+								<ul class="program-list list"> 
+									<li><a href="#">Windows</a></li>
+									<li><a href="#">Mac OS</a></li>
+									<li><a href="#">UNIX</a></li>
+									<li><a href="#">КПК</a></li>
+									<li><a href="#">iOS (iPad/iPhone)</a></li>
+									<li><a href="#">Android</a></li>
+									<li><a href="#">Други ОС</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="game subcatalog">Игры</a>
+								<ul class="game-list list"> 
+									<li><a href="#">PC</a></li>
+									<li><a href="#">Mac OS</a></li>
+									<li><a href="#">PSx</a></li>
+									<li><a href="#">XBOX360</a></li>
+									<li><a href="#">Wii</a></li>
+									<li><a href="#">КПК</a></li>
+									<li><a href="#">iOS (iPad/iPhone)</a></li>
+									<li><a href="#">Android</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="other subcatalog">Другое</a>
+								<ul class="other-list list"> 
+									<li><a href="#">Электронные книги</a></li>
+									<li><a href="#">Комиксы</a></li>
+									<li><a href="#">Картинки</a></li>
+									<li><a href="#">Обложки</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>		
+				</ul>	
+		</aside>
+		<header class="top-navigation">
+			<nav class="content">
+				<a href="#">
+				<img src="img/logo.png" width="184" height="60" alt="logo" class="logo"></a>
+				<ul class="menu inline-list">
+					<li><a href="#">право</a></li>
+					<li><a href="#">контакты</a></li>
+					<li><a href="#">рекламодатель</a></li>
+				</ul>
+				<p class="top-icon-menu fa fa-bars fa-3x"></p>
+				<div class="welcome-body dropdown">
+					<img src="img/icon-akk.png" class="akk-img" alt="icon-akk">
+					<p class="welcome">Приветствуем тебя,</p>
+					<p class="akk-name">Мешков Алексей</p>
+				</div>
+				<ul class="dropdown-menu dropdown-list"  role="menu">
+				    <li><a href="#"><i class="fa fa-folder"></i>Мои файлы</a></li>
+				    <li><a href="#"><i class="fa fa-search"></i>Поиск по файлу</a></li>
+				    <li><a href="#"><i class="fa fa-bar-chart-o"></i>Статистика</a></li>
+				    <li><a href="#"><i class="fa fa-code-fork"></i>Кнопки</a></li>
+				    <li><a href="#"><i class="fa fa-caret-square-o-down"></i>Потоки</a></li>
+				    <li><a href="#"><i class="fa fa-briefcase"></i>Выплаты</a></li>
+				    <li><a href="#"><i class="fa fa-user"></i>Профиль</a></li>
+				</ul>
+			</nav>
+		</header>	
+
+		
+
+		<div class="content myfile">
+			<div class="search">
+				<input type="text" placeholder="Поиск" class="search-input">
+				<a href="#" class="button-search">Поиск</a>
+			</div>
+			<aside class="catalog-block">
+				<ul>
+					<li><a href="#">Аудио</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Музыка</a></li>
+							<li><a href="#">Аудиокниги</a></li>
+							<li><a href="#">Аудиозаписи</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Видео</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Фильмы</a></li>
+							<li><a href="#">Фильмы DVDR</a></li>
+							<li><a href="#">Музыкальное видео</a></li>
+							<li><a href="#">Видеоролики</a></li>
+							<li><a href="#">В передачи</a></li>
+							<li><a href="#">КПК</a></li>
+							<li><a href="#">HD - Movies</a></li>
+							<li><a href="#">HD - TV shows</a></li>
+							<li><a href="#">3D</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Программы</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Windows</a></li>
+							<li><a href="#">Mac OS</a></li>
+							<li><a href="#">UNIX</a></li>
+							<li><a href="#">КПК</a></li>
+							<li><a href="#">iOS (iPad/iPhone)</a></li>
+							<li><a href="#">Android</a></li>
+							<li><a href="#">Други ОС</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Игры</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">PC</a></li>
+							<li><a href="#">Mac OS</a></li>
+							<li><a href="#">PSx</a></li>
+							<li><a href="#">XBOX360</a></li>
+							<li><a href="#">Wii</a></li>
+							<li><a href="#">КПК</a></li>
+							<li><a href="#">iOS (iPad/iPhone)</a></li>
+							<li><a href="#">Android</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Другое</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Электронные книги</a></li>
+							<li><a href="#">Комиксы</a></li>
+							<li><a href="#">Картинки</a></li>
+							<li><a href="#">Обложки</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</aside>
+
+			<section class="block-content">
+
+				<div class="string-nav">
+					<a href="#" class="file-link">Главная</a>
+					<p>&ensp;-&ensp;</p>
+					<p class="last-string-nav">Мои файлы</p>
+				</div>
+				<h3 class="title">Мои файлы</h3>
+
+				<div class="wrapper-my-file">
+					<img src="img/bigicon-myfile.png" class="main-bigicon" alt="bigimg-icon">
+					<div class="desc-my-file">
+						<a href="#" class="file-link">Aнтивирус касперского</a>
+						<p class="file-text gray mb">&emsp;(1,2GB)
+						<a href="#"><i class="fa fa-times gray position-close"></i></a>
+						<a href="#"><i class="fa fa-pencil gray position-close"></i></a>
+						</p>
+						<p class="file-text-disc">Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.</p>
+						<div class="block-icon-file gray">
+							<i class="fa-position fa fa-eye"></i><p>102360</p>
+							<i class="fa-position fa fa-download"></i><p>91720</p>
+							<i class="fa-position fa fa-tag"></i><p>Windows</p>
+							<i class="fa-position fa fa-code-fork"></i><a href="#" class="add-potok">Добавить в поток</a>
+						</div>
+						<div class="form-submit-group">
+						    <input type="text" class="form-control input-infofile" name="name" id="link-infofile" placeholder="http://ow.ly/sUpmY">
+						    	<label class="error-message">дай 5 тысяч надо срочно</label>
+						    <input type="submit" class="btn-submit-infofile btn-little" name="name" id="link-infofile" value="создать кнопку" data-toggle="modal" data-target="#myModal" placeholder="">
+						</div>
+					</div>
+				</div>
+				<div class="wrapper-my-file">
+					<img src="img/bigicon-myfile.png" class="main-bigicon" alt="bigimg-icon">
+					<div class="desc-my-file">
+						<a href="#" class="file-link">Aнтивирус касперского</a>
+						<p class="file-text gray mb">&emsp;(1,2GB)
+						<a href="#"><i class="fa fa-times gray position-close"></i></a>
+						<a href="#"><i class="fa fa-pencil gray position-close"></i></a>
+						</p>
+						<p class="file-text-disc">Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.</p>
+						<div class="block-icon-file gray">
+							<i class="fa-position fa fa-eye"></i><p>102360</p>
+							<i class="fa-position fa fa-download"></i><p>91720</p>
+							<i class="fa-position fa fa-tag"></i><p>Windows</p>
+							<i class="fa-position fa fa-code-fork"></i><p>Приложения</p>
+						</div>
+						<div class="form-submit-group">
+						    <input type="text" class="form-control input-infofile" name="name" id="link-infofile" placeholder="http://ow.ly/sUpmY">
+						    <input type="submit" class="btn-submit-infofile btn-little" name="name" id="link-infofile" value="создать кнопку" data-toggle="modal" data-target="#myModal" placeholder="">
+						</div>
+					</div>
+				</div>
+				<div class="wrapper-my-file">
+					<img src="img/bigicon-myfile.png" class="main-bigicon" alt="bigimg-icon">
+					<div class="desc-my-file">
+						<a href="#" class="file-link">Aнтивирус касперского</a>
+						<p class="file-text gray mb">&emsp;(1,2GB)
+						<a href="#"><i class="fa fa-times gray position-close"></i></a>
+						<a href="#"><i class="fa fa-pencil gray position-close"></i></a>
+						</p>
+						<p class="file-text-disc">Kaspersky Anti-Virus — это решение для базовой защиты компьютера от основных видов интернет-угроз.</p>
+						<div class="block-icon-file gray">
+							<i class="fa-position fa fa-eye"></i><p>102360</p>
+							<i class="fa-position fa fa-download"></i><p>91720</p>
+							<i class="fa-position fa fa-tag"></i><p>Windows</p>
+							<i class="fa-position fa fa-code-fork"></i><p>На продажу</p>
+						</div>
+						<div class="form-submit-group">
+						    <input type="text" class="form-control input-infofile" name="name" id="link-infofile" placeholder="http://ow.ly/sUpmY">
+						    <input type="submit" class="btn-submit-infofile btn-little" name="name" id="link-infofile" value="создать кнопку" data-toggle="modal" data-target="#myModal" placeholder="">
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="block-ad">
+				<img src="img/ad-bottom-first.png" alt="ad">
+				<div class="block-ad-text">
+					<p>Позиция Израиля относительно Евромайдана довольно</p>
+					<a href="#" class="link-ad">mnenia.zahav.ru</a>
+				</div>
+				<img src="img/ad-bottom-second.png" alt="ad">
+				<div class="block-ad-text">
+					<p>Названа сумма компенсации Ходорковскому за отсиженные годы</p>
+					<a href="#" class="link-ad">utro.ru</a>
+				</div>
+				<img src="img/ad-bottom-third.png" alt="ad">
+				<div class="block-ad-text">
+					<p>На забытом острове России нашли 8 тысяч тонн "ценного груза" ...</p>
+					<a href="#" class="link-ad">justmedia.ru</a>
+				</div>
+			</section>
+			<div class="clear"></div>
+		</div>	
+
+
+	</div><!--container-->
+	
+	
+	
+<!-- =====================================================START FOOTER=============================================== -->	
+	<footer class="black-footer">
+		<div class="footer-wrap">
+			<div class="footer-logo">
+				<a href="#">
+				<img src="img/logo.png" width="163" height="36" alt="logo">
+				</a>
+				<p class="allright">Все права защищены.<br>
+				Copyright &copy; 2014 Ontabfile.com</p>
+			</div>
+			
+			<ul class="nav-footer">
+				<li><a href="#">Правила</a></li>
+				<li><a href="#">Размещение рекламы</a></li>
+				<li><a href="#">Правообладателям</a></li>
+				<li><a href="#">Пожаловаться на файл</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Управление подпиской</a></li>
+				<li><a href="#">Партнерская программа</a></li>
+			</ul>
+			<div class="block-footer-icon">	
+				<img src="img/liveinternet.png" alt="jj">
+				<img src="img/webmoney.png" class="wm" alt="wm">
+				<img src="img/18.png" class="eighteen" alt="18">
+			</div>
+			
+		</div>	
+	</footer>	
+</div><!--page-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Скопируйте код ниже и вставьте у себя на сайте, в то место, где хотите отобразить.</h4>
+      </div>
+      <div class="modal-body">
+			&lt;div&gt;
+        	<p>a2">/A>ЛУЧИ ПОНОСА11 УПЯЧКА СЛЕДИТ ЗА ТОБОЙ11111адинадин!! ГЛАНДЭ11111 ПОПЯЧТС!!!!!!!1ONT> http://www.upyachka.ru СИСЬКЕ111адинадин111<//T> ЖЫВТОНЕ ЧОЧО УПЯЧКА !адин11111адинадин!1 ef="http://upyachka.ru">ЪЖЧЛО!!!!!11111</ >ГОЛАКТЕКО ОПАСНОСТЕ111111F АДИОПАСНОСТЕ!!!111!!!11T> O size"50">Медведев—шмельадинадинадин!!!11ЖЖЖЖЖ111111</FO> ЕБАНИ СТЫД!111111!!!!1&lt;/div&gt;
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+        <a href="#" type="button" class="file-link">настроить вид кнопки</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,99 @@
+@font-face
+{
+	
+}
+#countbox
+{
+	color: #d54f06;
+	
+	height: 60px;
+	text-align: center;
+	margin-bottom: 120px;
+	padding: 0;
+	width: 496px;
+	font-size: 40px;
+	padding-top: 5px;
+}
+
+
+
+
+#countbox .countbox-num
+{
+	float: left;
+	
+	background-image: url('../img/flip.png');
+	background-repeat: no-repeat;
+ 	
+	height: 80px;
+	padding: 5px 0 0 8px;
+	text-align: center;
+	width: 80px;
+	z-index: 1;
+	
+}
+#countbox .countbox-space
+{
+	float: left;
+	height: 60px;
+	width: 10px;
+}
+
+
+#countbox-days1,#countbox-hours1,#countbox-mins1,#countbox-secs1,#countbox-days2,#countbox-hours2,#countbox-mins2,#countbox-secs2
+{
+	float: left;
+	height: 50px;
+	text-align: center;
+	z-index: 1;
+	margin:3px 8px 3px 6px;
+	margin-top: -14px;
+	
+	/*
+	background-repeat: no-repeat;
+	
+	
+	
+	*/
+	
+}
+#countbox-days1,#countbox-hours1,#countbox-mins1,#countbox-secs1
+{left: -4px;
+position: relative;}
+
+#countbox-days-text,#countbox-hours-text,#countbox-mins-text,#countbox-secs-text
+{
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 14px !important;
+	margin-top: 45px;
+	position: relative;
+	width:60px;
+	left:-7px;
+
+}
+#countbox-days-text
+{
+	background-image: url('../img/days_text.gif');
+}
+#countbox-hours-text
+{
+	background-image: url('../img/hours_text.gif');
+}
+#countbox-mins-text
+{
+	background-image: url('../img/mins_text.gif');
+}
+#countbox-secs-text
+{
+	background-image: url('../img/secs_text.gif');
+}
+#countbox-days1 span, #countbox-days2 span, #countbox-hours1 span, #countbox-hours2 span, #countbox-mins1 span, #countbox-mins2 span, #countbox-secs1 span, #countbox-secs2 span
+{
+	
+	background-repeat: no-repeat;
+	display: block;
+	height: 89px;
+	position: absolute;
+	width:35px;
+}

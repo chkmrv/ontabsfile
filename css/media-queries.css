@@ -1,0 +1,1416 @@
+/* #1- Large desktop */
+@media (min-width: 980px) { 
+	
+}
+
+/* #2- Portrait tablet to landscape and desktop */
+@media (min-width: 769px) and (max-width: 979px) {
+
+
+	.content {
+		width: 98%;
+    	max-width: 940px;
+    	min-width: 600px;
+    }	
+
+    .menu {
+		color: white;
+		padding: 20px 0px;
+		margin-left: 10px;
+	}
+
+	.block-content {
+		width: 70%;
+	}
+
+	.download {
+		width: 100%;
+	}
+
+	.img-speed {
+		float: right;
+		margin: 10px 20px;
+	}
+
+	.block-filtr.last {
+		margin-left: 0;
+	}
+
+	.res-search {
+		width: 67%;
+	}
+
+	.desc-search-file {
+		width: 50%;
+		margin:0px 10px;
+	}
+
+	.block-content .main-bigicon {
+		width: 40%;
+	}
+
+	.text-login {
+		width: 30%;
+		padding: 90px 5px;
+	}
+
+	.enter-login .loginform {
+		width: 70%;
+	}
+
+	.loginform .form-group {
+		width: 100%;
+	}
+
+	.loginform .btn-submit-infofile {
+		margin-left: 60%;
+	}
+
+	.drop-pass .btn-submit-infofile {
+		margin-left: 35%;
+	}
+
+	.text-registr {
+		width: 30%;
+	}
+
+	.wrapper-my-file .main-bigicon {
+		width: 160px;
+	}
+
+	.wrapper-my-file .desc-my-file {
+		width: 64%;
+	}
+
+	.wrapper-my-file .btn-submit-infofile {
+		margin-left: 0;
+		margin-top: 15px;
+	}
+
+	.partnerka img {
+		width: 100%;
+	}
+
+	.property-form .lbl-infofile {
+		width: 39%;
+	}
+
+	.property-form {
+		padding-right: 10px;
+	}
+
+	.block-infofile {
+		width: 70%;
+	}
+
+	.block-place-insert {
+		padding: 30px;
+	}
+
+	.form-group {
+		width: 60%;
+	}
+
+	.lbl-infofile {
+		width: 29%;
+	}
+
+	.input-infofile {
+		width: 60%;
+	}
+
+	.btn-submit-infofile {
+		margin-left: 20%;
+	}
+
+	.last-btn-download {
+		margin: 90px 37% 50px;
+	}
+
+	.viplaty .text-registr {
+		width: 35%;
+		padding: 20px 10px;
+		margin-right: 5px;
+	}
+
+	.viplaty .loginform {
+		width: 59%;
+	}
+
+	.statictic {
+		width: 100%;
+	}
+
+	.statictic .lbl-infofile {
+		margin-left: 1%;
+	}
+
+	.statictic .stat-select {
+		width: 140px;
+		padding-left: 4px;
+	}
+
+	.statictic .form-date {
+		width: 59%;
+	}
+
+	.statictic .select {
+		margin: 0px 3px;
+	}
+
+	.ad-video {
+		width: 54%;
+		margin-left: 23%;
+	}
+
+	.btn-table {
+		margin: 10px 10px 20px 30px;
+	}
+
+	.btn-code {
+		margin-left: 10px;
+	}
+
+	.foto-upload {
+		width: 25%;
+		padding: 35px;
+	}
+
+	.popfile {
+		margin-right: 20px;
+	}
+
+	.block-ad {
+		width: 98%;
+	}	
+
+    .footer-wrap {
+		width: 98%;
+    	max-width: 940px;
+    }
+
+    .nav-footer {
+		margin-left: 30px;
+	}
+
+	.block-footer-icon {
+		margin-left: 40px;
+	}
+
+	label.error-message {
+		left: 30%;
+	}
+
+	.block-infofile label.error-message {
+		top: 32px;
+		left: 116px;
+	}
+
+	.block-infofile .textarea-group label.error-message {
+		top: 58px;
+		left: 117px;
+	}
+
+	.form-group-progress-bar label.error-message {
+		top: 38px;
+		left: 0px;
+	}
+
+	.form-group-rule label.error-message {
+		top: 19px;
+		left: 21%;
+	}
+
+	.desc-my-file label.error-message {
+		top: 36px;
+		left: 1%;
+	}
+
+	.viplaty label.error-message {
+		top: 60px;
+		left: 1%;;
+	}
+
+	.foto-upload p {
+		top: 56px;
+		left: 20px;
+	}
+}
+/* #3- Landscape phone to portrait tablet */
+@media (max-width: 769px) { 
+
+	.main-container {
+		overflow: hidden;
+	}
+
+	.mobile-nav {
+		width: 200px;
+		min-width: 150px;
+	}
+
+	.top-navigation {
+		width: 100%;
+		background: #232323;
+		height: auto;
+		margin: 0px;
+	}
+
+	.non-mobile-menu .top-icon-menu {
+		display: none;
+	}
+
+	.content {
+		width: 98%;
+    	max-width: 940px;
+    }	
+
+    .menu {
+		color: white;
+		padding: 20px 0px;
+		margin-left: 10px;
+		display: none;
+	}
+
+	.top-icon-menu {
+		display: block;
+	}
+
+	.welcome-body {
+		width: 60px;
+		padding: 15px 10px;
+		position: none;
+	}
+
+	.regist-link-head {
+		height: 60px;
+	}
+
+	.regist-link-head .welcome-body {
+		width: 145px;
+	}
+
+	.regist-link-head .top-icon-menu {
+		right: 150px;
+	}
+
+    .welcome {
+    	display: none;
+    }
+
+    .akk-name {
+    	display: none;
+    }
+
+    .dropdown-list {
+    	width: 100%;
+    	position: relative;
+    	top: 0;
+    	left: 0;
+    	padding: 10px;
+    	height: 195px;
+    }
+
+    .dropdown-list li a {
+    	width: 100%;
+    	position: relative;
+    	top: 0;
+    	background:#444;
+    	margin: 5px;
+    	padding-left: 10px;
+    }
+
+    .search {
+    	width: 99%;
+    }
+
+	.button-search {
+		display: none;
+	}
+
+	.search-input {
+		width: 99%;
+	}
+
+	.download .title-block {
+		display: block;
+	}
+
+	.sell-code {
+		margin: 20px;
+	}
+
+	.sell-code p {
+		display: block;
+	}
+
+	.img-speed {
+		width: 25%;
+		float: right;
+		margin: 0 10px;
+	}	
+
+	.table-download .btn-table {
+		width: 120px;
+		height: 34px;
+		margin: 0;
+		margin-left: 0;
+	}
+
+	.btn-code {
+		margin-left: 10px;
+	}
+
+	.block-filtr.last {
+		margin-left: 0;
+	}
+
+	.block-content {
+		width: 100%;
+	}
+
+	.block-content .main-bigicon {
+		width: 43%;
+	}
+
+	.wrapper-my-file .main-bigicon {
+		width: 160px;
+	}
+
+	.wrapper-my-file .desc-my-file {
+		width: 65%;
+	}
+
+	.wrapper-my-file .input-infofile {
+		width: 60%;
+	}
+
+	.wrapper-my-file .btn-submit-infofile {
+		margin-left: 0;
+	}
+
+	.partnerka img {
+		width: 100%;
+	}
+
+	.loginform {
+		width: 60%;
+	}
+
+	.loginform .btn-submit-infofile {
+		margin: 20px 60%;
+	}
+
+	.drop-pass .btn-submit-infofile {
+		margin: 0;
+		margin-left: 35%;
+	}
+
+	.registrform {
+		width: 70%;
+	}
+
+	.registrform .lbl-infofile {
+		width: 40%;
+		margin: 0;
+		margin-left: 10px;
+	}
+
+	.registrform .input-infofile {
+		width: 50%;
+	}
+
+	.registrform .btn-submit-infofile {
+		margin: 20px 50%;
+	}
+
+	.property-form {
+		width: 70%;
+		padding-right: 10px;
+	}
+
+	.property-form .lbl-infofile {
+		width: 39%;
+	}
+
+	.desc-search-file {
+		width: 50%;
+		margin: 0;
+		margin-left: 10px;
+	}
+
+	.block-infofile {
+		width: 100%;
+		height: 480px;
+	}
+
+	.lbl-infofile {
+		width: 30%;
+	}
+
+	.btn-submit-infofile {
+		margin-left: 15%;
+	}
+
+	.input-infofile {
+		width: 30%;
+	}
+
+    .block-main-upload {
+		width: 99%;
+		height: 400px;
+		text-align: center;
+	}
+
+	.block-place-insert {
+		width: 100%;
+		height: 220px;
+		background: #f2f2f2;
+	}
+
+	.block-file {
+		margin-left: 20px;
+		width: 45%;
+	}
+
+	.popfile {
+		margin-right: 20px;
+	}
+
+	.block-file-title {
+		width: 99%;
+	}
+
+	.viplaty .text-registr {
+		width: 35%;
+		padding: 40px 20px;
+		margin-right: 5px;
+	}
+
+	.viplaty .loginform {
+		width: 59%;
+	}
+
+	.block-ad {
+		width: 98%;
+		height: auto;
+		margin: 5px 40px;
+		padding-bottom: 20px;
+	}
+
+	.block-ad-text {
+		height: 110px;
+		text-align: center;
+		font-size: 12px;
+		padding: 5px;
+	}
+
+	.last-btn-download {
+		margin: 70px 29% 120px;
+	}
+
+	.ad-video {
+		width: 55%;
+		height: 200px;
+		margin-left: 23%;
+	}
+
+	.block-ad-dwld {
+		width: 20%;
+	}
+
+	.block-ad-dwld img {
+		width: 100%;
+	}
+
+	.block-ad-dwld.ad-third {
+		top: 300px;
+		left: 0;
+	}
+
+	.block-ad-dwld.ad-fore {
+		top: 300px;
+		right: 0;
+	}
+
+	.viplaty .loginform {
+		width: 100%;
+	}
+
+
+	.viplaty .loginform .btn-submit-infofile {
+		margin: 20px 30%;
+	}
+
+	.viplaty .text-registr {
+		width: 100%;
+		margin-top: 10px;
+	}
+
+	.statictic {
+		width: 100%;
+	}
+
+	.statictic .form-date {
+		width: 82%;
+		margin-top: 20px;
+	}
+
+	.footer-wrap {
+		width: 98%;
+    	max-width: 940px;
+    	text-align: left;
+    }	
+
+	.nav-footer {
+		margin-left: 10%;
+	}
+
+	.block-right {
+		width: 120px;
+	}
+
+	.footer-wrap{
+		height: auto;
+	}
+
+	.block-footer-icon {
+		width: 120px;
+		padding: 10px;
+		height: auto;
+		text-align: right;
+		float: none;
+		margin-left: 10%;
+		display: inline-block;
+	}
+
+	.eighteen {
+		margin: 10px 10px;
+		float: none;
+	}
+
+	.wm {
+		margin: 0;
+		margin-top: 10px;
+	}
+
+	.catalog-block {
+		display: none;
+	}
+
+	.mobile-nav {
+		display: block;
+	}
+
+	label.error-message {
+		left: 43%;
+	}
+
+	.block-infofile label.error-message {
+		top: 32px;
+		left: 31%;
+	}
+
+	.block-infofile .textarea-group label.error-message {
+		top: 58px;
+		left: 31%;
+	}
+
+	.form-group-progress-bar label.error-message {
+		top: 38px;
+		left: 0px;
+	}
+
+	.form-group-rule label.error-message {
+		top: 36px;
+		left: 59%;
+	}
+
+	.sell-code label.error-message {
+		top: 74px;
+		left: 8%;
+	}
+
+	.sell-code .second label.error-message {
+		top: 83px;
+		left: 8%;
+	}
+
+	.desc-my-file label.error-message {
+		top: 77px;
+		left: 1%;
+	}
+
+	.partnerka label.error-message {
+		top: 37px;
+		left: 58%;
+	}
+
+	.add-potok label.error-message {
+		top: 47px;
+		left: 31%;
+	}
+
+	.viplaty label.error-message {
+		top: 32px;
+		left: 155px;
+	}
+
+
+	.foto-upload p {
+		top: 21px;
+		left: 32%;
+	}
+}
+
+@media (max-width: 710px) {
+
+	.block-filtr.second {
+		margin-left: 0;
+	}
+
+	.block-ad {
+		margin: 5px 20px;
+	}
+
+	.block-ad-text {
+		width: 60%;
+		float: none;
+	}
+
+	.sell-code .btn-submit-infofile {
+		margin-left: 4%;
+	}
+
+	.sell-code .input-infofile {
+		margin-left: 0px;
+	}
+
+	.sell-code .link-no {
+		margin-left: 4%;
+	}
+
+	.nav-footer {
+		margin-left: 1%;
+	}
+
+	.block-footer-icon {
+		margin-left: 1%;
+	}
+}
+/* #33- Portrait tablet to landscape and desktop */
+@media (max-width: 567px) {
+
+	.mobile-nav {
+		width: 200px
+	}
+
+	.block-main-upload {
+		width: 99%;
+		padding: 10px;
+		height: auto;
+	}
+
+	.button-upload p{
+		display: none;
+	}
+
+	.block-place {
+		height: 220px;
+		margin-bottom: 20px;
+	}
+
+	.block-place-insert {
+		height: 180px;
+		padding: 20px;
+	}
+
+	.wrapper-my-file .main-bigicon {
+		width: 160px;
+	}
+
+	.wrapper-my-file .desc-my-file {
+		width: 60%;
+	}
+
+	.wrapper-my-file .input-infofile {
+		width: 70%;
+	}
+
+	.wrapper-my-file .btn-submit-infofile {
+		margin-left: 0;
+	}
+
+	.wrapper-my-file .block-icon-file p {
+		float: none;
+	}
+
+	.sell-code {
+		margin: 0;
+	}
+
+	.sell-code img {
+		padding: 7px 10px;
+	}
+
+	.sell-code .first {
+		width: auto;
+		height: 53px;
+	}
+
+	.sell-code .btn-submit-infofile {
+		margin-left: 4%;
+	}
+
+	.sell-code .input-infofile {
+		margin-left: 0px;
+	}
+
+	.sell-code .link-no {
+		margin-left: 10%;
+	}
+
+	.table-download tr td {
+		padding: 10px;
+	}
+
+	.sell-code .input-infofile {
+		width: 160px;
+		margin-left: 0px;
+	}
+
+	.loginform {
+		width: 100%;
+		margin: 20px 0px 0px;
+	}
+
+	.loginform .btn-submit-infofile {
+		margin-left: 27%;
+	}
+
+	.drop-pass .btn-submit-infofile {
+		margin: 0;
+	}
+
+	.drop-pass .form-submit-group {
+		text-align: center;
+	}
+
+
+	.text-registr {
+		text-align: left;
+		padding: 10px;
+		padding-left: 0;
+		width: 100%;
+	}
+
+	.text-login {
+		text-align: left;
+		padding: 10px;
+		padding-left: 0;
+		width: 100%;
+	}
+
+	.forget-password {
+		width: 90%;
+	}
+
+	.property-form .form-submit-group {
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+		padding-bottom: 20px;
+		float: none;
+	}
+
+	.property-form .form-submit-group .btn-propert {
+		float: none;
+	}
+
+	.block-file {
+		width: 93%;
+		margin-left: 30px;
+		margin-right: 10px;
+	}
+
+	#upload .fileinput-button {
+		padding-top: 100px;
+		min-height: 100px;
+	}
+
+	.block-file-title {
+		width: 96%;
+	}
+
+	.search {
+		margin-top: 5px;
+		height: 50px;
+	}
+
+	.block-content {
+		padding-left: 20px;
+	}
+
+	.partnerka {
+		padding-left: 10px;
+	}
+
+	.partnerka .form-submit-group {
+		text-align: center;
+	}
+
+	.partnerform .btn-submit-infofile {
+		margin-left: 25%;
+	}
+
+	.block-content .main-bigicon {
+		width: 33%;
+	}
+
+	.similar-file {
+		width: 88%;
+	}
+
+	.desc-search-file {
+		width: 60%;
+	}
+
+	.catalog-block {
+		width: 47%;
+		background: #ccc;
+		margin: 0 10px;
+		display: none;
+	}
+
+	.foto-upload {
+		width: 60%;
+		height: 100px;
+		padding: 20px 0px 0px 0px;
+		margin-bottom: 10px;
+		float: none;
+		margin: 15px auto;
+	}
+
+	.lbl-infofile {
+		width: 37%;
+	}
+
+	.drop-pass .lbl-infofile {
+		width: 45%;
+		white-space: pre;
+	}
+
+	.btn-submit-infofile {
+		margin-left: 35%;
+	}
+
+	.input-infofile {
+		width: 50%;
+	}
+
+	.block-infofile {
+		width: 100%;
+		height: 560px;
+	}
+
+	.block-ad-text {
+		width: 70%;
+		float: left;
+	}
+
+	.last-btn-download {
+		margin: 30px 19% 280px;
+	}
+
+	.viplaty .loginform .btn-submit-infofile {
+		margin: 20px 30%;
+	}
+
+	.statictic .form-date {
+		width: 99%;
+	}
+
+	.statictic .btn-table {
+		float: left;
+	}
+
+	.statictic .lbl-infofile {
+		width: auto;
+		margin-left: 1%;
+	}
+
+
+	.ad-video {
+		margin-top: 270px;
+		width: 100%;
+		height: 200px;
+		margin-left: 0px;
+	}
+
+	.block-ad-dwld {
+		width: 150px;
+	}
+
+	.block-ad-dwld.ad-third {
+		top: 630px;
+	}
+
+	.block-ad-dwld.ad-fore {
+		top: 630px;
+	}
+
+	.block-ad-dwld img {
+		width: 150px;
+	}
+
+	.footer-wrap {
+		padding-top: 30px;
+	}
+
+	.wm {
+		margin: 0;
+		margin-left: 20px;
+	}
+
+	.block-footer-icon {
+		width: 100%;
+		padding: 10px;
+		height: auto;
+		text-align: center;
+		float: none;
+		margin-left: 0;
+		display: inline-block;
+	}
+
+	label.error-message {
+		left: 43%;
+	}
+
+	.block-infofile label.error-message {
+		top: 32px;
+		left: 38%;
+	}
+
+	.block-infofile .textarea-group label.error-message {
+		top: 58px;
+		left: 38%;
+	}
+
+	.form-group-progress-bar label.error-message {
+		top: 38px;
+		left: 0px;
+	}
+
+	.foto-upload p {
+		top: 33px;
+		left: 30%;
+	}
+
+	.block-infofile .foto-upload label.error-message {
+		top: 100px;
+		left: -1%;
+	}
+
+	.block-infofile .form-submit-group .btn-submit-infofile {
+		margin-left: 0px;
+	}
+
+	.form-group-rule label.error-message {
+		top: 21px;
+		left: 28%;
+	}
+
+	.drop-pass label.error-message {
+		left: 46%;
+	}
+
+	.partnerka label.error-message {
+		top: 80px;
+		left: -5%;
+	}
+
+	.add-potok label.error-message {
+		top: 32px;
+		left: 38%;
+	}
+
+	.content.plashka {
+		width: 100%;
+	}
+
+	.plashka .text {
+		color: #fff;
+		position: relative;
+		display: block;
+		font-size: 24px;
+		font-weight: 600;
+		width: 95%;
+		text-align: center;
+		margin: 130px auto 55px;
+	}
+}
+
+/* #4- Landscape phones and down */
+@media (max-width: 420px) {
+
+	.logo {
+		padding: 13px 12px;
+	}
+
+	.block-infofile {
+		width: 100%;
+		height: 640px;
+	}
+
+	.foto-upload {
+		width: 55%;
+		height: 100px;
+		padding: 20px 0px 0px 0px;
+		margin-bottom: 10px;
+		float: none;
+		margin: 15px auto;
+	}
+
+	.file-text-desc {
+		min-height: 33px;
+			height: auto;
+	}
+
+	.rule-text {
+		width: 77%;
+	}
+
+	.join-rule-registr {
+		float: left;
+	}
+
+	.form-submit-group {
+		width: 240px;
+		margin: 0 auto;
+	}
+
+	.loginform {
+		width: 100%;
+		margin: 20px 0px 0px;
+	}
+
+	.regist-link-head .top-icon-menu {
+		right: 60px;
+	}
+
+	.regist-link-mob {
+		display: block;
+	}
+
+	.welcome-body {
+		display: none;
+	}
+
+	.forget-password {
+		width: 100%;
+		text-align: center;
+	}
+
+	.loginform .btn-submit-infofile {
+		margin: 40px auto;
+	}
+
+	.loginform .lbl-infofile {
+		width: 70%;
+	}
+
+
+	.loginform .input-infofile {
+		width: 90%;
+	}
+
+	.block-content {
+		padding-left: 20px;
+	}
+
+	.block-content .main-bigicon {
+		width: 93%;
+		margin-bottom: 10px;
+	}
+
+	.desc-search-file {
+		width: 98%;
+	}
+
+	.block-main-upload {
+		width: 99%;
+		padding: 10px;
+		height: auto;
+	}
+
+	.button-upload p{
+		display: none;
+	}
+
+	.block-place {
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.block-place-insert {
+		height: 100px;
+		padding: 10px;
+	}
+
+	.block-place-insert p{
+		display: none;
+	}
+
+	.wrapper-my-file .main-bigicon {
+		width: 30%;
+	}
+
+	.wrapper-my-file .desc-my-file {
+		width: 94%;
+	}
+
+	.wrapper-my-file .form-submit-group {
+		width: 100%;
+		text-align: center;
+	}
+
+	.wrapper-my-file .input-infofile {
+		width: 90%;
+	}
+
+	.wrapper-my-file .btn-submit-infofile {
+		margin-left: 0;
+	}
+
+	.wrapper-my-file .block-icon-file p {
+		float: none;
+	}
+
+	#upload .fileinput-button {
+		padding-top: 25px;
+	}
+
+	.viplaty .loginform .btn-submit-infofile {
+		margin: 20px 10%;
+	}
+
+	.viplaty .table-pay {
+		font-size: 12px;
+		margin-left: -10px;
+	}
+
+	.table-pay thead td {
+		padding: 0px; 
+		height: 40px;
+		font-size: 11px;
+		border: 1px solid #444;
+	}
+
+	.table-pay tbody td {
+	    height: 44px;
+	    padding-left: 0px;
+	    border: 1px solid #444;
+	}
+
+	.download {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 12px;
+	}
+
+	.table-bigcell {
+		font-size: 14px;
+	}
+
+	.table-download .btn-table {
+		width: 70px;
+		height: 24px;
+		margin: 0;
+		margin-left: 0;
+	}
+
+	.img-speed {
+		display: none;
+	}
+
+	.sell-code .input-infofile {
+		margin-bottom: 15px;
+	}
+
+	.sell-code {
+		margin: 20px;
+		text-align: center;
+	}
+
+	.block-file {
+		width: 93%;
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+
+	.block-file-title {
+		width: 96%;
+	}
+
+	.search {
+		margin-top: 5px;
+		height: 50px;
+	}
+
+	.catalog-block {
+		width: 47%;
+		background: #ccc;
+		margin: 0 10px;
+		display: none;
+	}
+
+	.menu-right-adapt {
+		display: block;
+	}
+
+	.block-ad {
+		margin: 5px 20px;
+	}
+
+	.block-ad-text {
+		width: 60%;
+	}
+
+	.nav-footer {
+		float: none;
+		text-align: center;
+	}
+
+	.footer-wrap{
+		height: auto;
+	}
+
+	.footer-wrap div{
+		float: none;
+		text-align: center;
+	}
+
+	.block-footer-icon {
+		width: 100%;
+		padding: 10px;
+		height: auto;
+	}
+
+	.eighteen {
+		margin: 0 10px;
+		float: none;
+	}
+
+	label.error-message {
+		left: 2%;
+		top: 52px;
+	}
+
+	.enter-other-web ul {
+		padding-right: 20px;
+		text-align: center; 
+	}
+
+	.foto-upload p {
+		top: 33px;
+		left: 20%;
+	}
+
+	.form-group-rule label.error-message {
+		top: 21px;
+		left: 21%;
+	}
+
+	.sell-code label.error-message {
+		top: 70px;
+		left: 33%;
+	}
+
+	.sell-code .second label.error-message {
+		top: 57px;
+		left: 36%;
+	}
+
+	.drop-pass label.error-message {
+		top: 59px;
+		left: 0%;
+	}
+
+	.desc-my-file label.error-message {
+		top: 77px;
+		left: 25%;
+	}
+
+	.viplaty label.error-message {
+		top: 63px;
+		left: 0%;
+	}
+
+	.partnerform .btn-submit-infofile {
+		margin-left: 0%;
+	}
+
+	.partnerform .rule-text {
+		width: 60%;
+	}
+}
+
+/* #4- Landscape phones and down */
+@media (max-width: 280px) {
+
+	.top-icon-menu {
+		display: block;
+		right: 20px;
+	}
+
+	.welcome-body {
+		display: none;
+	}
+
+	.sms-block .title {
+		height: auto;
+	}
+
+	.sell-code img {
+		padding: 7px 0px;
+	}
+
+	.block-infofile {
+		width: 100%;
+		height: 740px;
+	}
+
+	.lbl-infofile {
+		width: 87%;
+	}
+
+	.form-submit-group {
+		width: 240px;
+	}
+
+	.block-place {
+		height: auto;
+		margin-bottom: 20px;
+	}
+
+	.block-place-insert {
+		height: auto;
+		padding: 0;
+		background: none;
+	}
+
+	.block-place-insert img{
+		width: 50px;
+	}
+
+	.file-text-desc {
+		overflow: hidden;
+	}
+
+	.file-link {
+		overflow: hidden;
+	}
+
+	.block-ad img {
+		width: 60px;
+	}
+}

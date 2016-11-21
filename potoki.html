@@ -1,0 +1,294 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<title>OnTabFile-potoki</title>
+
+  	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href='css/ie.css'>
+	<link rel="stylesheet" href='css/font-awesome.css'>
+	<link rel="stylesheet" href='css/font-awesome.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href='css/media-queries.css'>
+
+	<!-- CSS to style the file input field as button and adjust the Bootstrap progress bars -->
+	<link rel="stylesheet" href="css/jquery.fileupload.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,700,600,800&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<!-- Timer -->
+	<link rel="stylesheet" href="css/style-timer.css">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/mobilenav.js"></script>
+
+	<script src="js/bootstrap.min.js"></script>
+    
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+	<![endif]-->
+
+</head>
+<body>
+ <!-- =====================================================START HEADER=============================================== -->	
+<div class="page">
+	<div class="main-container">
+		<!--block mobile-->
+		<aside class="mobile-nav">
+				<ul class="list-mobile dropdown">
+					<li><a href="#">право</a></li>
+					<li><a href="#">контакты</a></li>
+					<li><a href="#">рекламодатель</a></li>
+					<li><a href="#" class="subcatalog" id="catalog-mobile">каталог</a>
+
+						<ul class="dropdown-catalog" id="dropdown-catalog">
+							<li><a href="#" class="audio subcatalog">Аудио</a>
+								<ul class="audio-list list"> 
+									<li><a href="#">Музыка</a></li>
+									<li><a href="#">Аудиокниги</a></li>
+									<li><a href="#">Аудиозаписи</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="video subcatalog">Видео</a>
+								<ul class="video-list list"> 
+									<li><a href="#">Фильмы</a></li>
+									<li><a href="#">Фильмы DVDR</a></li>
+									<li><a href="#">Музыкальное видео</a></li>
+									<li><a href="#">Видеоролики</a></li>
+									<li><a href="#">В передачи</a></li>
+									<li><a href="#">КПК</a></li>
+									<li><a href="#">HD - Movies</a></li>
+									<li><a href="#">HD - TV shows</a></li>
+									<li><a href="#">3D</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="program subcatalog">Программы</a>
+								<ul class="program-list list"> 
+									<li><a href="#">Windows</a></li>
+									<li><a href="#">Mac OS</a></li>
+									<li><a href="#">UNIX</a></li>
+									<li><a href="#">КПК</a></li>
+									<li><a href="#">iOS (iPad/iPhone)</a></li>
+									<li><a href="#">Android</a></li>
+									<li><a href="#">Други ОС</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="game subcatalog">Игры</a>
+								<ul class="game-list list"> 
+									<li><a href="#">PC</a></li>
+									<li><a href="#">Mac OS</a></li>
+									<li><a href="#">PSx</a></li>
+									<li><a href="#">XBOX360</a></li>
+									<li><a href="#">Wii</a></li>
+									<li><a href="#">КПК</a></li>
+									<li><a href="#">iOS (iPad/iPhone)</a></li>
+									<li><a href="#">Android</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="other subcatalog">Другое</a>
+								<ul class="other-list list"> 
+									<li><a href="#">Электронные книги</a></li>
+									<li><a href="#">Комиксы</a></li>
+									<li><a href="#">Картинки</a></li>
+									<li><a href="#">Обложки</a></li>
+									<li><a href="#">Другое</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li>		
+				</ul>	
+		</aside>
+		<header class="top-navigation">
+			<nav class="content">
+				<a href="#">
+				<img src="img/logo.png" width="184" height="60" alt="logo" class="logo"></a>
+				<ul class="menu inline-list">
+					<li><a href="#">право</a></li>
+					<li><a href="#">контакты</a></li>
+					<li><a href="#">рекламодатель</a></li>
+				</ul>
+				<p class="top-icon-menu fa fa-bars fa-3x"></p>
+				<div class="welcome-body dropdown">
+					<img src="img/icon-akk.png" class="akk-img" alt="icon-akk">
+					<p class="welcome">Приветствуем тебя,</p>
+					<p class="akk-name">Мешков Алексей</p>
+				</div>
+				<ul class="dropdown-menu dropdown-list"  role="menu">
+				    <li><a href="#"><i class="fa fa-folder"></i>Мои файлы</a></li>
+				    <li><a href="#"><i class="fa fa-search"></i>Поиск по файлу</a></li>
+				    <li><a href="#"><i class="fa fa-bar-chart-o"></i>Статистика</a></li>
+				    <li><a href="#"><i class="fa fa-code-fork"></i>Кнопки</a></li>
+				    <li><a href="#"><i class="fa fa-caret-square-o-down"></i>Потоки</a></li>
+				    <li><a href="#"><i class="fa fa-briefcase"></i>Выплаты</a></li>
+				    <li><a href="#"><i class="fa fa-user"></i>Профиль</a></li>
+				</ul>
+			</nav>
+		</header>	
+
+		<div class="content">
+			<div class="search">
+				<input type="text" placeholder="Поиск" class="search-input">
+				<a href="#" class="button-search">Поиск</a>
+			</div>
+
+			<aside class="catalog-block">
+				<ul>
+					<li><a href="#">Аудио</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Музыка</a></li>
+							<li><a href="#">Аудиокниги</a></li>
+							<li><a href="#">Аудиозаписи</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Видео</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Фильмы</a></li>
+							<li><a href="#">Фильмы DVDR</a></li>
+							<li><a href="#">Музыкальное видео</a></li>
+							<li><a href="#">Видеоролики</a></li>
+							<li><a href="#">В передачи</a></li>
+							<li><a href="#">КПК</a></li>
+							<li><a href="#">HD - Movies</a></li>
+							<li><a href="#">HD - TV shows</a></li>
+							<li><a href="#">3D</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Программы</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Windows</a></li>
+							<li><a href="#">Mac OS</a></li>
+							<li><a href="#">UNIX</a></li>
+							<li><a href="#">КПК</a></li>
+							<li><a href="#">iOS (iPad/iPhone)</a></li>
+							<li><a href="#">Android</a></li>
+							<li><a href="#">Други ОС</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Игры</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">PC</a></li>
+							<li><a href="#">Mac OS</a></li>
+							<li><a href="#">PSx</a></li>
+							<li><a href="#">XBOX360</a></li>
+							<li><a href="#">Wii</a></li>
+							<li><a href="#">КПК</a></li>
+							<li><a href="#">iOS (iPad/iPhone)</a></li>
+							<li><a href="#">Android</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Другое</a>
+						<ul class="list-in-catalog"> 
+							<li><a href="#">Электронные книги</a></li>
+							<li><a href="#">Комиксы</a></li>
+							<li><a href="#">Картинки</a></li>
+							<li><a href="#">Обложки</a></li>
+							<li><a href="#">Другое</a></li>
+						</ul>
+					</li>
+				</ul>	
+			</aside>
+
+			<section class="block-content res-search potoki">
+				<h5 class="title">Поток:</h5><p class="valsearch">НА ПРОДАЖУ (10)</p>
+				<ul class="decimal">
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">uTorrent</a>
+							<p class="file-text gray">&emsp;(7mb)</p>
+							<p class="file-text-desc">Программа для скачивания торрент-файлов</p>
+						</div>
+					</li>
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">WhatsApp</a>
+							<p class="file-text gray">&emsp;(6mb)</p>
+							<p class="file-text-desc">Меседжер для iOS</p>
+						</div>
+					</li>	
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">What are you talking about</a>
+							<p class="file-text gray">&emsp;(630mb)</p>
+							<p class="file-text-desc">Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться.</p>
+						</div>
+					</li>	
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">What Evil Lurks</a>
+							<p class="file-text gray">&emsp;(370mb)</p>
+							<p class="file-text-desc">Дебютный мини-альбом британской группы «The Prodigy», вышедший в 1991 году.</p>
+						</div>
+					</li>	
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">What Can I Do — Smokie</a>
+							<p class="file-text gray">&emsp;(52mb)</p>
+							<p class="file-text-desc">Музыкальный клип.</p>
+						</div>
+					</li>
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">uTorrent</a>
+							<p class="file-text gray">&emsp;(7mb)</p>
+							<p class="file-text-desc">Программа для скачивания торрент-файлов</p>
+						</div>
+					</li>
+					<li class="file">
+						<div>
+							<a href="#" class="file-link">WhatsApp</a>
+							<p class="file-text gray">&emsp;(6mb)</p>
+							<p class="file-text-desc">Меседжер для iOS</p>
+						</div>
+					</li>		
+				</ul>
+			</section>
+			<div class="clear"></div>
+		</div>	
+
+
+	</div><!--container-->
+	
+	
+	
+<!-- =====================================================START FOOTER=============================================== -->	
+	<footer class="black-footer">
+		<div class="footer-wrap">
+			<div class="footer-logo">
+				<a href="#">
+				<img src="img/logo.png" width="163" height="36" alt="logo"></a>
+				<p class="allright">Все права защищены.<br>
+				Copyright &copy; 2014 Ontabfile.com</p>
+			</div>
+			
+			<ul class="nav-footer">
+				<li><a href="#">Правила</a></li>
+				<li><a href="#">Размещение рекламы</a></li>
+				<li><a href="#">Правообладателям</a></li>
+				<li><a href="#">Пожаловаться на файл</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Управление подпиской</a></li>
+				<li><a href="#">Партнерская программа</a></li>
+			</ul>
+			<div class="block-footer-icon">	
+				<img src="img/liveinternet.png" alt="jj">
+				<img src="img/webmoney.png" class="wm" alt="wm">
+				<img src="img/18.png" class="eighteen" alt="18">
+			</div>
+			
+		</div>	
+	</footer>	
+</div><!--page-->
+
+</body>
+</html>
+
